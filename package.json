@@ -1,0 +1,15 @@
+{
+  "name": "neo-one-compiler-fixes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@neo-one/cli": "^2.7.0",
+    "@neo-one/smart-contract": "^2.7.0",
+    "@neo-one/smart-contract-test": "^2.7.0",
+    "@types/jest": "^26.0.7",
+    "bignumber.js": "^9.0.0",
+    "jest": "^26.2.1",
+    "ts-jest": "^26.1.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "neo-one/contracts",
+    "neo-one/contracts/*.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
