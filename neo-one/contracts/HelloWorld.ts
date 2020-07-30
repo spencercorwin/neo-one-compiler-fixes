@@ -10,6 +10,7 @@ export class HelloWorld extends SmartContract {
 
   public constructor(public readonly owner: Address = Deploy.senderAddress) {
     super();
+    // Initialize the smart contract with several items in the sample ArrayStorage
     this.sampleStorage.push('first');
     this.sampleStorage.push('second');
     this.sampleStorage.push('third');
@@ -32,10 +33,13 @@ export class HelloWorld extends SmartContract {
         value = 'Hello default';
     }
 
+    // Previously this return statement would never be called
     return value;
   }
 
   public getArrayStorage() {
+    // Previously, if you tried to access index 0 with a computed value (like 1 - 1) it wouldn't
+    // work properly
     return this.sampleStorage[1 - 1];
   }
 }
