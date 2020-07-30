@@ -1,6 +1,7 @@
 # Demonstrate Fixes to NEO•ONE Smart Contract Compiler Bugs
 
 - `yarn install`
+- `yarn neo-one build`
 - `yarn jest`
 - Should pass the unit tests in `HelloWorld.test.ts`
 
